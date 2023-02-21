@@ -1,0 +1,160 @@
+html {
+    overflow-x: hidden;
+}
+
+.left-column {
+    float: left;
+    width: 35%;
+    padding-left: 100px;
+    height: 900px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    float: left;
+    height: 240px;
+    width: 240px;
+}
+
+.row {
+    background-color: antiquewhite;
+    margin: 60px 100px;
+    border: 2px solid rgb(82, 78, 78);
+    box-shadow: 3px 4px 5px 6px rgb(82, 78, 78);
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+
+    border-radius: 50%;
+    border: 3px solid rgb(236, 224, 224);
+    outline: 4px solid orange;
+    position: relative;
+}
+
+body {
+    background-color: rgb(175, 118, 42);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+hr {
+    border-color: black;
+    border-width: 1px;
+    width: 200px;
+    padding-right: 5px;
+    padding-left: 20px;
+}
+
+.left-column dt,
+h2 {
+    clear: both;
+    padding-left: 20px;
+    font-family: inherit;
+}
+
+.left-column dd,
+.right-column dd {
+    margin-left: 20px;
+    font-size: 14px;
+    color: grey;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: grey"
+
+}
+
+a:link {
+    color: grey;
+}
+
+a:active {
+    color: grey;
+}
+
+a:visited {
+    color: grey;
+}
+
+.left-column dt,
+.right-column dt {
+    clear: both;
+    font-size: 15px;
+    color: purple;
+    font-weight: bolder;
+    display: table;
+    padding-top: 20px;
+}
+
+dt:nth-of-type(1) {
+    padding-top: 3px;
+}
+
+.right-column {
+    float: left;
+    width: 65%;
+    padding-right: 193px;
+}
+
+.right-column p {
+    color: rgb(82, 78, 78);
+    white-space: wrap;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.right-column span {
+    color: rgb(99, 93, 93);
+}
+
+.right-column dd a {
+    color: grey;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.last-one {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 700px;
+    padding-left: 80px;
+}
+
+#first-one {
+    width: 800px;
+    margin-right: 50px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 200px;
+}
+
+#second-one {
+    white-space: wrap;
+    width: 500px;
+    padding-left: 30px;
+    border-left: 2px solid grey;
+    padding-left: 500px;
+    border-top: 3px;
+    margin-left: 0px;
+}
